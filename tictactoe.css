@@ -1,26 +1,23 @@
-#playfield
-{
+#playfield {
     display: inline-grid;
     grid-template-columns: auto auto auto;
     padding-left: 20px;
     gap: 15px;
 }
 
-.field
-{
+.field {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     font-size: 14em;
-    padding-left:0.13em;
-    padding-right:0em;
+    padding-left: 0.13em;
+    padding-right: 0em;
     padding-top: 0em;
-    padding-bottom:0.15em;
+    padding-bottom: 0.15em;
     width: 0.87em;
     height: 1em;
 }
 
-#result
-{
+#result {
     padding: 20px;
     font-weight: 700;
     font-size: 35px;
